@@ -8,8 +8,8 @@
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data":"node backend/seederScript.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend "
+    "data": "node backend/seederScript.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend "
   },
   "keywords": [],
   "author": "",
@@ -17,10 +17,11 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "heroku": "^7.56.0",
     "mongoose": "^5.13.0"
   },
   "devDependencies": {
     "concurrently": "^6.2.0",
     "nodemon": "^2.0.8"
   }
-} 
+}
