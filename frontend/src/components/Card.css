@@ -1,0 +1,46 @@
+.carditem {
+  width: 90%;
+  padding: 1rem;
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+  gap: 8px;
+  background: rgb(182, 182, 182);
+  border-radius: 2px;
+  place-items: center;
+  margin-right: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.carditem img {
+  width: 100px;
+}
+
+.carditem__name {
+  text-decoration: none;
+  color: black;
+}
+.carditem__name:hover {
+  color: lightpink;
+}
+
+.carditem__select {
+  padding: 10px 17px;
+}
+
+.carditem .MuiSvgIcon-root {
+  padding: 10px 17px;
+  color: red;
+  background: black;
+  border: 1 px dotted black;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.carditem .MuiSvgIcon-root:hover,
+.carditem .MuiSvgIcon-root:after,
+.carditem .MuiSvgIcon-root:active {
+  background: black;
+  transform: scale(1.2);
+}
