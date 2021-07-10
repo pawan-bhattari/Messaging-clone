@@ -1,7 +1,8 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "proxy":"http://0.0.0.0:8000",
+
+  "proxy" : "https://pure-refuge-10589.herokuapp.com/ ",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
